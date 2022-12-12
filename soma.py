@@ -1,0 +1,7 @@
+a = int(input("Digite a quantidade de km rodado: "))
+a = float(a * 0.15)
+print("Valor por Km rodado R$ ",a)
+c = int(input("Digite as diárias: "))
+c = int(c * 60)
+print("Valor das diárias R$ ",c)
+print("Total da Locação =", a + c)
